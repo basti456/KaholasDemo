@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="#4482C1">
+
+    <ImageView
+        android:id="@+id/imageMaths"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/student"/>
+    <TextView
+        android:layout_above="@id/imageMaths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play With Numbers"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        />
+</RelativeLayout>
